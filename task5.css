@@ -2,11 +2,10 @@ body{
     background-color: #FFFFFF;
     margin: 0em;
     padding: 0em;
-    overflow: auto;
 }
 header{
     background-color: #5AC0CE;
-    position: absolute; top:0;left: 0;right: 0;
+    position: fixed; top:0;left: 0;right: 0;
     color: #FFFFFF;
     height: 3em; 
     display: flex;
@@ -18,7 +17,7 @@ header{
     position: absolute; left: 0.5em;
 }
 footer{
-    position: absolute; bottom: 0;left: 0;right: 0;
+    position: fixed; bottom: 0;left: 0;right: 0;
     display: flex;
     justify-content: space-evenly;
 }
@@ -31,7 +30,7 @@ footer{
     height: 40px;
     width: 45%;
     border-radius: 10px;
-    margin-bottom: 0em;
+    margin-bottom: 1em;
     padding-bottom: 0em;
 }
 .phone{
@@ -41,12 +40,20 @@ footer{
     height: 40px;
     width: 45%;  
     border-radius: 10px; 
-    margin-bottom: 0em;
+    margin-bottom: 1em;
     padding-bottom: 0em; 
 }
 .name{
     width: 100%;
-    height: 12em;
+    height: 15em;
+    background-image:url(./img/name1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.photo{
+    margin-left: 2em;
+    margin-top: 3em;
+    height: 8em;;
 }
 .borde{
     height: 4em;
@@ -98,4 +105,7 @@ footer{
 }
 .money{
     color: #FF0000;
+}
+.borde2{
+    height: 5em;
 }
