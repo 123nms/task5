@@ -20,6 +20,7 @@ footer{
     position: fixed; bottom: 0;left: 0;right: 0;
     display: flex;
     justify-content: space-evenly;
+    background-color: #FFFFFF;
 }
 .message{
     border-color: #5AC0CE;
@@ -32,6 +33,7 @@ footer{
     border-radius: 10px;
     margin-bottom: 1em;
     padding-bottom: 0em;
+    margin-top: 0.5em;
 }
 .phone{
     border-style: none;
@@ -42,6 +44,7 @@ footer{
     border-radius: 10px; 
     margin-bottom: 1em;
     padding-bottom: 0em; 
+    margin-top: 0.5em;
 }
 .name{
     width: 100%;
@@ -51,8 +54,8 @@ footer{
     background-size: 100% 100%;
 }
 .photo{
-    margin-left: 2em;
-    margin-top: 3em;
+    margin-left: 1em;
+    margin-top: 4.5em;
     height: 8em;;
 }
 .borde{
@@ -97,11 +100,24 @@ footer{
     color: #C8C8C8;
     border-right-color: #C8C8C8;
     border-right-style: solid;
+    border-right-width: 0.01rem;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+}
+.form1{
+    color: #C8C8C8;
+    border-right-color: #C8C8C8;
+    border-right-style: solid;
     border-right-width: 0.01em;
     padding-right: 1em;
     margin-right: 1em;
     margin-top: 1.3em;
     margin-bottom: 1.3em;
+}
+.form2{
+    flex: 1;
 }
 .money{
     color: #FF0000;
